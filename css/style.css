@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 10px 0;
+  background: transparent;
+  width: 100%;
+  z-index: 9999999;
+  transition: all 0.5s linear;
+  top: 0;
+}
+.site-header .header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.site-header .site-nav li a {
+  color: #00095E;
+  font-weight: 500;
+  padding: 10px 0 10px 24px;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+.site-header .site-nav li a:hover {
+  color: #7EA0FF;
+}
+.site-header .site-nav li a::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #7EA0FF;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.site-header .site-nav li a:hover:after {
+  transform: scaleX(1);
+}
+.site-header .closed-menu {
+  display: none;
+}
+.site-header .menu-toggle {
+  display: none;
+}
+.site-header .menu-toggle .bar-1,
+.site-header .bar-2,
+.site-header .bar-3 {
+  width: 2.5rem;
+  height: 2px;
+  background-color: #4c9ef1;
+  margin: 0.6rem 0;
+  transition: all 0.3s linear;
+  display: block;
+}
+
+header.site-header.sticky {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  z-index: 9999999;
+}
+
+main {
+  overflow: hidden;
+}
+
+section.site-banner {
+  background: url(../images/home.jpeg) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  height: 800px;
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: zoom 20s ease-in-out infinite;
+}
+section.site-banner:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.34);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+section.site-banner .bnr-inner h1 {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 1px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.2;
+  position: relative;
+}
+section.site-banner .bnr-inner p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+section.durch {
+  padding: 70px 0;
+}
+section.durch .durch-inner p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  box-shadow: 0 0 7px rgba(143, 255, 69, 0.26);
+  padding: 20px;
+}
+
+section.die {
+  padding: 80px 0 0 0;
+}
+section.die .figure-classic.figure-classic-left img {
+  box-shadow: #fec801 6px 4px;
+}
+section.die .die-text {
+  padding: 0 0 0 68px;
+}
+section.die .die-text h2 {
+  color: #0c1534;
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 1px;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 0 20px 0;
+}
+section.die .die-text p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+section.card-sec .card-text p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+section.sec-cards {
+  padding: 100px 0 50px 0;
+  background-color: rgba(254, 200, 0, 0.031372549);
+}
+section.sec-cards .sec-cards-inner .row {
+  align-items: center;
+}
+section.sec-cards .sec-cards-inner .row .col-lg-6 {
+  padding: 0;
+}
+section.sec-cards .card-img {
+  overflow: hidden;
+}
+section.sec-cards .card-img img {
+  height: 400px;
+  object-fit: cover;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+section.sec-cards .card-img img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+section.sec-cards .text-heading {
+  padding: 0 50px;
+}
+section.sec-cards .text-heading h3 {
+  color: #00095E;
+  font-size: 24px;
+}
+section.sec-cards .text-heading p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  width: 100%;
+  max-width: 527px;
+}
+
+section.testimonial {
+  padding: 80px 0;
+}
+section.testimonial .testimonial-inner .silder-wrapper {
+  text-align: center;
+}
+section.testimonial .testimonial-inner .silder-wrapper .silder-img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+section.testimonial .testimonial-inner .silder-wrapper .silder-img img {
+  border-radius: 50%;
+}
+section.testimonial .testimonial-inner .silder-wrapper .discri {
+  margin-top: 15px;
+  font-style: normal;
+  padding: 20px 20px 30px;
+  font-size: 15px;
+  margin-bottom: 0;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 200px;
+}
+section.testimonial .testimonial-inner .silder-wrapper .discri ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+section.testimonial .testimonial-inner .silder-wrapper .discri ul li {
+  padding: 0 6px 0 0;
+}
+section.testimonial .testimonial-inner .silder-wrapper .discri ul li i {
+  color: #fec801;
+}
+section.testimonial .testimonial-inner .silder-wrapper h4 {
+  font-size: 22px;
+  color: #00095E;
+  margin-top: 20px;
+}
+
+section.inner-pages-bnr {
+  background: url(../images/accommodation.avif) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  object-fit: cover;
+}
+section.inner-pages-bnr::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.34);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -99;
+}
+section.inner-pages-bnr .bnr-inner h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 1px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.2;
+  position: relative;
+}
+
+section.accommodation-card .accommodation-wrapper .row {
+  align-items: center;
+}
+section.accommodation-card .accommodation-wrapper .row .col-lg-6 {
+  padding: 0;
+}
+section.accommodation-card .card-accom {
+  overflow: hidden;
+}
+section.accommodation-card .card-accom img {
+  height: 400px;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+section.accommodation-card .card-accom img:hover {
+  transform: scale(1.08);
+}
+section.accommodation-card .card-text-acco {
+  padding: 0 40px;
+}
+section.accommodation-card .card-text-acco h3 {
+  font-size: 30px;
+  color: #00095E;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+section.accommodation-card .card-text-acco p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+section.accommodation-card .card-text-acco .read-more a {
+  background-color: #0c1534;
+  padding: 14px 50px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  transition: all 0.3s;
+  text-transform: capitalize;
+  display: inline-block;
+}
+section.accommodation-card .card-text-acco .read-more a:hover {
+  background-color: #fec801;
+}
+
+section.card-section {
+  padding: 80px 0;
+}
+section.card-section .card-section-inner .hotel-sec-iner {
+  background: #fff;
+  height: 100%;
+  box-shadow: #0c1534 6px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 0 20px 0;
+  transition: all 0.3s;
+}
+section.card-section .card-section-inner .hotel-sec-iner:hover {
+  transform: translateY(-6px);
+}
+section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text h4 {
+  font-size: 22px;
+  color: #00095E;
+  font-weight: 600;
+  margin: 10px 0;
+}
+section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  width: 100%;
+  margin-bottom: 20px;
+}
+section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text .read-more a {
+  background-color: #0c1534;
+  padding: 14px 50px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  transition: all 0.3s;
+  text-transform: capitalize;
+  display: inline-block;
+}
+section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text .read-more a:hover {
+  background-color: #fec801;
+}
+
+footer {
+  background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
+  background-size: cover;
+  padding: 50px 0;
+  background-position: center;
+  margin-top: 40px;
+}
+footer .footer-logo img {
+  max-width: 200px;
+}
+footer .footer-logo ul a {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  margin: 13px 13px 0 0;
+  display: inline-block;
+}
+footer .footer-logo ul a i {
+  width: 40px;
+  height: 40px;
+  background: #4c9ef1;
+  border: 1px solid #4c9ef1;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+footer .footer-logo ul a i:hover {
+  background-color: transparent;
+  border: 1px solid #4c9ef1;
+}
+footer .Useful_link h2 {
+  color: #fff;
+  font-size: 26px;
+  font-family: "Josefin Sans", sans-serif;
+}
+footer .Useful_link ul li a {
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 0;
+  display: inline-block;
+  transition: all 0.3s;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+footer .Useful_link ul li a:hover {
+  color: #4c9ef1;
+  padding-left: 10px;
+}
+footer .location ul li a i {
+  background: transparent;
+  text-align: center;
+  border-radius: 37px;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  padding: 9px;
+  margin: 0 10px 0 0;
+  border: 1px solid #4c9ef1;
+}
+footer .location ul li a i:hover {
+  color: #7EA0FF;
+  background-color: transparent;
+}
+footer .copyright {
+  border-top: 1px solid #fff;
+  padding: 22px 0 0 0;
+  margin-top: 10px;
+}
+footer .copyrights p {
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+}
+footer .policey ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .policey ul li a {
+  color: #fff;
+  padding: 0px 0px 0 40px;
+  display: inline-block;
+  line-height: 29px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+}
+footer .policey ul li a:hover {
+  color: #7EA0FF;
+}
+
+@media screen and (max-width: 991px) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: linear-gradient(13deg, #4c9ef1 0%, #4c9ef1 50%, rgb(0, 0, 0) 100%);
+    transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+    transform: translateX(-100%);
+    z-index: 9999;
+  }
+  .site-header .site-nav ul {
+    display: block;
+    margin-top: 40px;
+  }
+  .site-header .site-nav ul li {
+    border-bottom: 1px solid #fff;
+  }
+  .site-header .site-nav ul li a {
+    color: #fff;
+  }
+  .site-header .menu-toggle {
+    display: block;
+  }
+  .site-header .closed-menu {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    display: inline-block !important;
+  }
+  .site-header .closed-menu a {
+    color: #fff;
+  }
+  .toggle .site-nav {
+    transform: translateX(0);
+  }
+  .luxury-hotel.seconds {
+    margin-top: 20px;
+  }
+  .author {
+    padding: 20px 0;
+  }
+  .hotel-btn {
+    padding: 0 0 20px 0;
+  }
+  .content .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content .content-overlay {
+    opacity: 1;
+  }
+  .content .content-overlay {
+    background: rgba(0, 0, 0, 0.31);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .content-details h3 {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
