@@ -443,6 +443,13 @@ section.inner-pages-bnr.Abenteuer {
   padding: 40px 0;
 }
 
+section.inner-pages-bnr.unterhaltung {
+  background: url(../images/entertainment.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 footer {
   background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
   background-size: cover;
