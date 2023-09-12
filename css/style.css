@@ -439,6 +439,10 @@ section.inner-pages-bnr.Abenteuer {
   background-attachment: fixed;
 }
 
+#abenteuer section.card-section {
+  padding: 40px 0;
+}
+
 footer {
   background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
   background-size: cover;
