@@ -55,6 +55,10 @@ a:focus {
     & .site-nav li a {
         @include menu;
 
+        &.active {
+            color: $menuhover-color;
+        }
+
         &:hover {
             color: $menuhover-color;
         }
@@ -70,6 +74,7 @@ a:focus {
         &:hover:after {
             transform: scaleX(1);
         }
+
     }
 
     & .closed-menu {
@@ -543,7 +548,13 @@ section.card-section {
 }
 
 
-
+// 3 pages start
+section.inner-pages-bnr.Abenteuer{
+    background: url(../images/ADVENTURE.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 
 

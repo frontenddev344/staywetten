@@ -61,6 +61,9 @@ a:focus {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
+.site-header .site-nav li a.active {
+  color: #7EA0FF;
+}
 .site-header .site-nav li a:hover {
   color: #7EA0FF;
 }
@@ -427,6 +430,13 @@ section.card-section .card-section-inner.secc {
 #accommodation section.durch {
   padding: 40px 0;
   text-align: center;
+}
+
+section.inner-pages-bnr.Abenteuer {
+  background: url(../images/ADVENTURE.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 footer {
