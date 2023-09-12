@@ -125,6 +125,7 @@ section.site-banner {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-attachment: fixed;
     animation: zoom 20s ease-in-out infinite;
 
     &:after {
@@ -369,6 +370,7 @@ section.inner-pages-bnr {
     position: relative;
     z-index: 99;
     object-fit: cover;
+    background-attachment: fixed;
 
     &::after {
         content: '';
@@ -549,7 +551,7 @@ section.card-section {
 
 
 // 3 pages start
-section.inner-pages-bnr.Abenteuer{
+section.inner-pages-bnr.Abenteuer {
     background: url(../images/ADVENTURE.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -558,14 +560,14 @@ section.inner-pages-bnr.Abenteuer{
 
 
 // 
-#abenteuer{
-    section.card-section{
+#abenteuer {
+    section.card-section {
         padding: 40px 0;
     }
 }
 
 // 
-section.inner-pages-bnr.unterhaltung{
+section.inner-pages-bnr.unterhaltung {
     background: url(../images/entertainment.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -573,7 +575,15 @@ section.inner-pages-bnr.unterhaltung{
 }
 
 
+// ABOUT PAGE CSS
 
+
+section.inner-pages-bnr.about {
+    background: url(../images/about-bnr.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 
 

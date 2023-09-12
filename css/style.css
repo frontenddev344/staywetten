@@ -120,6 +120,7 @@ section.site-banner {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-attachment: fixed;
   animation: zoom 20s ease-in-out infinite;
 }
 section.site-banner:after {
@@ -304,6 +305,7 @@ section.inner-pages-bnr {
   position: relative;
   z-index: 99;
   object-fit: cover;
+  background-attachment: fixed;
 }
 section.inner-pages-bnr::after {
   content: "";
@@ -445,6 +447,13 @@ section.inner-pages-bnr.Abenteuer {
 
 section.inner-pages-bnr.unterhaltung {
   background: url(../images/entertainment.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.inner-pages-bnr.about {
+  background: url(../images/about-bnr.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
