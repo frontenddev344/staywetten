@@ -459,6 +459,43 @@ section.inner-pages-bnr.about {
   background-attachment: fixed;
 }
 
+section.inner-pages-bnr.contact {
+  background: url(../images/Kontakt.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.information-box {
+  padding-bottom: 70px;
+}
+section.information-box .information-inner h3 {
+  font-size: 26px;
+  color: #0c1534;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+}
+section.information-box .information-inner h3 a {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+section.information-box .information-inner h5 {
+  font-size: 20px;
+  color: #0c1534;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+}
+section.information-box .information-inner p {
+  font-family: "Roboto", sans-serif;
+  color: #677F8B;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
 footer {
   background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
   background-size: cover;
