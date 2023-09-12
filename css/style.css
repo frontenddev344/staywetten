@@ -424,6 +424,11 @@ section.card-section .card-section-inner.secc {
   margin-top: 30px;
 }
 
+#accommodation section.durch {
+  padding: 40px 0;
+  text-align: center;
+}
+
 footer {
   background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
   background-size: cover;
