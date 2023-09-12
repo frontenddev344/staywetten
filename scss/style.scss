@@ -487,10 +487,11 @@ section.card-section {
             &:hover {
                 transform: translateY(-6px);
             }
-             & img{
+
+            & img {
                 height: 217px;
-                object-fit:cover ;
-             }
+                object-fit: cover;
+            }
 
             .hotel-sec-text {
                 h4 {
@@ -536,7 +537,7 @@ section.card-section {
 }
 
 // accommodation
-#accommodation section.durch{
+#accommodation section.durch {
     padding: 40px 0;
     text-align: center;
 }
