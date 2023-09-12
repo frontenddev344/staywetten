@@ -389,6 +389,10 @@ section.card-section .card-section-inner .hotel-sec-iner {
 section.card-section .card-section-inner .hotel-sec-iner:hover {
   transform: translateY(-6px);
 }
+section.card-section .card-section-inner .hotel-sec-iner img {
+  height: 217px;
+  object-fit: cover;
+}
 section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text h4 {
   font-size: 22px;
   color: #00095E;
@@ -415,6 +419,9 @@ section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text .read-m
 }
 section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text .read-more a:hover {
   background-color: #fec801;
+}
+section.card-section .card-section-inner.secc {
+  margin-top: 30px;
 }
 
 footer {

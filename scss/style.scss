@@ -464,10 +464,16 @@ section.accommodation-card {
 }
 
 // 
+
+
 section.card-section {
     padding: 80px 0;
 
+
+
     .card-section-inner {
+
+
         .hotel-sec-iner {
             background: #fff;
             height: 100%;
@@ -478,9 +484,13 @@ section.card-section {
             padding: 0px 0 20px 0;
             transition: all 0.3s;
 
-            &:hover{
+            &:hover {
                 transform: translateY(-6px);
             }
+             & img{
+                height: 217px;
+                object-fit:cover ;
+             }
 
             .hotel-sec-text {
                 h4 {
@@ -518,6 +528,10 @@ section.card-section {
                 }
             }
         }
+    }
+
+    .card-section-inner.secc {
+        margin-top: 30px;
     }
 }
 
