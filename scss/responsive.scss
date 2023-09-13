@@ -155,7 +155,7 @@
     }
 
     section.card-section .card-section-inner .hotel-sec-iner img {
-        height: 315px;
+        height: auto;
         object-fit: cover;
     }
 
@@ -177,6 +177,14 @@
 
     section.card-section {
         padding: 0px 0;
+    }
+
+    footer .Useful_link ul li a {
+        font-size: 13px;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+
     }
 }
 
@@ -252,5 +260,25 @@
 
     section.die {
         padding: 0 0 0 0;
+    }
+
+    footer .Useful_link ul li a {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    section.accommodation-card .card-accom img {
+        height: 260px;
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (max-width:575px) {
+    section.sec-cards .card-img img {
+        height: 200px;
     }
 }

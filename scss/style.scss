@@ -695,7 +695,7 @@ section.terms {
 footer {
     background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
     background-size: cover;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     background-position: center;
     margin-top: 40px;
 
@@ -776,8 +776,8 @@ footer {
 
     & .copyright {
         border-top: 1px solid $primary-color;
-        padding: 22px 0 0 0;
-        margin-top: 10px;
+        padding: 30px 0 0 0;
+        margin-top: 30px;
     }
 
     & .copyrights {
