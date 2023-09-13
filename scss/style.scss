@@ -475,11 +475,10 @@ section.card-section {
             background: $primary-color;
             height: 100%;
             box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding: 0px 0 20px 0;
+
+            padding: 0px 0 50px 0;
             transition: all 0.3s;
+            position: relative;
 
             &:hover {
                 transform: translateY(-6px);
@@ -520,6 +519,8 @@ section.card-section {
                         transition: all 0.3s;
                         text-transform: capitalize;
                         display: inline-block;
+                        position: absolute;
+                        bottom: 11px;
 
                         &:hover {
                             background-color: #fec801;
