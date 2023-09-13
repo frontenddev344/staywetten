@@ -643,6 +643,10 @@ footer .policey ul li a:hover {
   color: #7EA0FF;
 }
 
+.owl-dots {
+  display: none;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner .bnr-inner h1 {
     font-size: 40px;
