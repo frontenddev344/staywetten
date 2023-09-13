@@ -39,7 +39,7 @@
         right: 0;
         bottom: 0;
         width: 300px;
-        background: linear-gradient(13deg, #4c9ef1 0%, #4c9ef1 50%, rgb(0 0 0) 100%);
+        background: linear-gradient(135deg, #1a2d6d 0%, #0c1534 100%);
         transition: .4s cubic-bezier(0, 0, 0.13, 0.61);
         transform: translateX(-100%);
         z-index: 9999;
@@ -176,6 +176,48 @@
     section.inner-pages-bnr .bnr-inner h1 {
         font-size: 30px;
 
+    }
 
+    section.accommodation-card .card-text-acco h3 {
+        font-size: 24px;
+    }
+
+    section.accommodation-card .card-text-acco p {
+        font-size: 16px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 20px 0 0px;
+    }
+
+    .Useful_link {
+        margin-top: 20px;
+    }
+
+    footer .policey ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    section#terms .banner_uppr_txt h1 {
+        font-size: 33px;
+    }
+
+    section.terms .condition_wrap h5 {
+        font-size: 22px;
+    }
+
+    section.terms .condition_wrap p {
+        font-size: 16px;
+
+    }
+
+    section.durch .durch-inner p {
+        font-size: 16px;
     }
 }
