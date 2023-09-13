@@ -120,8 +120,6 @@ section.site-banner {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-attachment: fixed;
-  animation: zoom 20s ease-in-out infinite;
 }
 section.site-banner:after {
   content: "";
@@ -645,6 +643,17 @@ footer .policey ul li a:hover {
   color: #7EA0FF;
 }
 
+@media screen and (max-width: 1199px) {
+  section.site-banner .bnr-inner h1 {
+    font-size: 40px;
+  }
+  section.site-banner .bnr-inner p {
+    font-size: 16px;
+  }
+  section.site-banner {
+    height: 500px;
+  }
+}
 @media screen and (max-width: 1204px) {
   .site-header .site-nav ul li a {
     padding: 10px 0 10px 18px;

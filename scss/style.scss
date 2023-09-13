@@ -125,8 +125,7 @@ section.site-banner {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-attachment: fixed;
-    animation: zoom 20s ease-in-out infinite;
+  
 
     &:after {
         content: '';

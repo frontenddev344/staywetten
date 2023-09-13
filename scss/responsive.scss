@@ -1,4 +1,18 @@
-@media screen and (max-width:1199px) {}
+@media screen and (max-width:1199px) {
+    section.site-banner .bnr-inner h1 {
+
+        font-size: 40px;
+
+    }
+
+    section.site-banner .bnr-inner p {
+        font-size: 16px;
+    }
+
+    section.site-banner {
+        height: 500px;
+    }
+}
 
 @media screen and (max-width:1204px) {
     .site-header .site-nav ul li a {
