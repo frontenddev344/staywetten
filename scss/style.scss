@@ -38,25 +38,25 @@ a:focus {
 /* line 14, ../scss/_frame.scss */
 ::-webkit-scrollbar {
     width: 4px;
-  }
-  
-  /* line 18, ../scss/_frame.scss */
-  ::-webkit-scrollbar-track {
+}
+
+/* line 18, ../scss/_frame.scss */
+::-webkit-scrollbar-track {
     background: #ECFAFB;
-  }
-  
-  /* line 22, ../scss/_frame.scss */
-  ::-webkit-scrollbar-thumb {
-    background: #4c9ef1;
+}
+
+/* line 22, ../scss/_frame.scss */
+::-webkit-scrollbar-thumb {
+    background: $menuhover-color;
     border-radius: 2px;
-  }
-  
-  /* line 27, ../scss/_frame.scss */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* line 27, ../scss/_frame.scss */
+::-webkit-scrollbar-thumb:hover {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
-  }
-  
+}
+
 // Header css
 .site-header {
     padding: 10px 0;
@@ -147,7 +147,7 @@ section.site-banner {
     align-items: center;
     justify-content: center;
     text-align: center;
-  
+
 
     &:after {
         content: '';
@@ -162,47 +162,16 @@ section.site-banner {
 
     .bnr-inner {
         h1 {
-            color: $primary-color;
-            line-height: 1.2;
-            font-size: 60px;
-            font-weight: 800;
-            margin-bottom: 1px;
-            font-family: "Josefin Sans", sans-serif;
-            line-height: 1.2;
-            position: relative;
-
+            @include bnr-heading-h;
         }
-
         p {
-
-            font-family: "Roboto", sans-serif;
-            color: #fff;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 1.8;
-
+            @include bnr-p-h;
         }
 
 
     }
 }
 
-@keyframes zoom {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
 
 // 
 
@@ -213,7 +182,7 @@ section.durch {
     .durch-inner {
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -250,7 +219,7 @@ section.die {
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -264,7 +233,7 @@ section.card-sec {
     .card-text {
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -313,7 +282,7 @@ section.sec-cards {
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -350,7 +319,7 @@ section.testimonial {
                 padding: 20px 20px 30px;
                 font-size: 15px;
                 margin-bottom: 0;
-                background: #fff;
+                background: $primary-color;
                 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
                 height: 200px;
 
@@ -406,7 +375,7 @@ section.inner-pages-bnr {
 
     .bnr-inner {
         h1 {
-            color: #fff;
+            color: $primary-color;
             text-align: center;
             font-size: 60px;
             font-weight: 800;
@@ -464,7 +433,7 @@ section.accommodation-card {
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -503,7 +472,7 @@ section.card-section {
 
 
         .hotel-sec-iner {
-            background: #fff;
+            background: $primary-color;
             height: 100%;
             box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
             display: flex;
@@ -523,6 +492,7 @@ section.card-section {
 
             .hotel-sec-text {
                 padding: 0 22px;
+
                 h4 {
                     font-size: 22px;
                     color: $menu-color;
@@ -532,7 +502,7 @@ section.card-section {
 
                 p {
                     font-family: "Roboto", sans-serif;
-                    color: #677F8B;
+                    color: $para-color;
                     font-size: 17px;
                     font-weight: 400;
                     line-height: 1.8;
@@ -627,7 +597,7 @@ section.information-box {
 
             a {
                 font-family: "Roboto", sans-serif;
-                color: #677F8B;
+                color: $para-color;
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 1.8;
@@ -645,7 +615,7 @@ section.information-box {
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -684,7 +654,7 @@ section.terms {
 
         p {
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -696,7 +666,7 @@ section.terms {
             padding-left: 20px;
             padding-bottom: 15px;
             font-family: "Roboto", sans-serif;
-            color: #677F8B;
+            color: $para-color;
             font-size: 18px;
             font-weight: 400;
             line-height: 1.8;
@@ -765,14 +735,14 @@ footer {
     & .Useful_link {
 
         & h2 {
-            color: #fff;
+            color: $primary-color;
             font-size: 26px;
             font-family: "Josefin Sans", sans-serif;
         }
 
         & ul li a {
             font-size: 16px;
-            color: #fff;
+            color: $primary-color;
             padding: 6px 0;
             display: inline-block;
             transition: all 0.3s;

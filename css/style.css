@@ -44,7 +44,7 @@ a:focus {
 
 /* line 22, ../scss/_frame.scss */
 ::-webkit-scrollbar-thumb {
-  background: #4c9ef1;
+  background: #7EA0FF;
   border-radius: 2px;
 }
 
@@ -171,20 +171,6 @@ section.site-banner .bnr-inner p {
   line-height: 1.8;
 }
 
-@keyframes zoom {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
 section.durch {
   padding: 70px 0;
 }
