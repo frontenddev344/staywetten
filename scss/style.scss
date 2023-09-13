@@ -35,6 +35,28 @@ a:focus {
     margin: 0 auto;
 }
 
+/* line 14, ../scss/_frame.scss */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* line 18, ../scss/_frame.scss */
+  ::-webkit-scrollbar-track {
+    background: #ECFAFB;
+  }
+  
+  /* line 22, ../scss/_frame.scss */
+  ::-webkit-scrollbar-thumb {
+    background: #4c9ef1;
+    border-radius: 2px;
+  }
+  
+  /* line 27, ../scss/_frame.scss */
+  ::-webkit-scrollbar-thumb:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+  }
+  
 // Header css
 .site-header {
     padding: 10px 0;
