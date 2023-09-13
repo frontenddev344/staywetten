@@ -484,7 +484,7 @@ section.card-section {
         .hotel-sec-iner {
             background: #fff;
             height: 100%;
-            box-shadow: #0c1534 6px 4px;
+            box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -501,6 +501,7 @@ section.card-section {
             }
 
             .hotel-sec-text {
+                padding: 0 22px;
                 h4 {
                     font-size: 22px;
                     color: $menu-color;

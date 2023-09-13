@@ -384,7 +384,7 @@ section.card-section {
 section.card-section .card-section-inner .hotel-sec-iner {
   background: #fff;
   height: 100%;
-  box-shadow: #0c1534 6px 4px;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -397,6 +397,9 @@ section.card-section .card-section-inner .hotel-sec-iner:hover {
 section.card-section .card-section-inner .hotel-sec-iner img {
   height: 217px;
   object-fit: cover;
+}
+section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text {
+  padding: 0 22px;
 }
 section.card-section .card-section-inner .hotel-sec-iner .hotel-sec-text h4 {
   font-size: 22px;
@@ -642,6 +645,14 @@ footer .policey ul li a:hover {
   color: #7EA0FF;
 }
 
+@media screen and (max-width: 1204px) {
+  .site-header .site-nav ul li a {
+    padding: 10px 0 10px 18px;
+  }
+  section.testimonial .testimonial-inner .silder-wrapper .discri {
+    height: 252px;
+  }
+}
 @media screen and (max-width: 991px) {
   .site-nav {
     position: fixed;
@@ -715,6 +726,49 @@ footer .policey ul li a:hover {
   }
   .content-details h3 {
     font-size: 16px;
+  }
+  section.sec-cards .sec-cards-inner:nth-child(2) .row,
+  section.sec-cards .sec-cards-inner:nth-child(4) .row {
+    flex-direction: column-reverse;
+  }
+  section.sec-cards .text-heading {
+    padding: 0 22px;
+    margin: 20px 0 40px;
+  }
+  section.die .die-text {
+    padding: 0 0 0 0;
+    margin: 20px 0 0 0;
+  }
+  section.testimonial {
+    padding: 50px 0;
+  }
+  section.card-section .card-section-inner .hotel-sec-iner img {
+    height: 315px;
+    object-fit: cover;
+  }
+  section.accommodation-card .accommodation-wrapper:first-child .row {
+    flex-direction: column-reverse;
+  }
+  section.card-section .card-section-inner .row .col-lg-3.col-md-6 {
+    margin: 20px 0;
+  }
+  section.card-section .card-section-inner.secc {
+    margin-top: 0px;
+  }
+  section.accommodation-card .card-text-acco {
+    margin: 20px 0 40px;
+  }
+  section.card-section {
+    padding: 0px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  section.inner-pages-bnr {
+    height: auto;
+    padding: 110px 0;
+  }
+  section.inner-pages-bnr .bnr-inner h1 {
+    font-size: 30px;
   }
 }
 
