@@ -233,4 +233,16 @@
     section.durch .durch-inner p {
         font-size: 16px;
     }
+
+    section.site-banner .bnr-inner p {
+        display: none;
+    }
+
+    section.durch.d-none {
+        display: block !important;
+    }
+
+    section.site-banner {
+        height: 450px;
+    }
 }
