@@ -832,6 +832,12 @@ footer .policey ul li a:hover {
   section.site-banner {
     height: 450px;
   }
+  section.durch.d-none {
+    padding: 50px 0;
+  }
+  section.die {
+    padding: 0 0 0 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
