@@ -870,7 +870,7 @@ section.card-section.main .card-section-inner .row {
     padding: 50px 0;
   }
   section.card-section .card-section-inner .hotel-sec-iner img {
-    height: auto;
+    height: 216px;
     object-fit: cover;
   }
   section.accommodation-card .accommodation-wrapper:first-child .row {
