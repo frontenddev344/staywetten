@@ -461,7 +461,7 @@ section.inner-pages-bnr.unterhaltung {
 section.inner-pages-bnr.about {
   background: url(../images/about-bnr.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 section.inner-pages-bnr.contact {
@@ -892,6 +892,15 @@ section.card-section.main .card-section-inner .row {
   }
   .card-section-inner .row .col-lg-4.col-md-6:nth-child(3) {
     margin-top: 30px;
+  }
+  .hotels-inr {
+    height: auto;
+  }
+  .accommodation1 {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 767px) {
