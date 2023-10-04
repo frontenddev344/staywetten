@@ -145,7 +145,7 @@ section.site-banner {
 }
 section.site-banner:after {
   content: "";
-  background: rgba(0, 0, 0, 0.34);
+  background: rgba(0, 0, 0, 0.59);
   position: absolute;
   top: 0;
   left: 0;
