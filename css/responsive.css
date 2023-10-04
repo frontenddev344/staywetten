@@ -16,8 +16,15 @@
   section.testimonial .testimonial-inner .silder-wrapper .discri {
     height: 252px;
   }
+  .betting-text {
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 991px) {
+  .betting-text {
+    margin-top: 28px;
+    margin-left: 0px;
+  }
   .site-nav {
     position: fixed;
     top: 0;
