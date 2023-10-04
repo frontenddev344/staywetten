@@ -138,6 +138,9 @@
     align-items: center;
     display: flex;
   }
+  .card-section-inner .row .col-lg-4.col-md-6:nth-child(3) {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   section.inner-pages-bnr {
@@ -203,6 +206,9 @@
   section.accommodation-card .card-accom img {
     height: 260px;
     object-fit: cover;
+  }
+  .card-section-inner .row .col-lg-4.col-md-6:nth-child(2) {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 575px) {
