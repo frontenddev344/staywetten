@@ -361,7 +361,7 @@ section.inner-pages-bnr {
     position: relative;
     z-index: 99;
     object-fit: cover;
-    background-attachment: fixed;
+   
 
     &::after {
         content: '';
@@ -549,7 +549,6 @@ section.inner-pages-bnr.Abenteuer {
     background: url(../images/ADVENTURE.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 
@@ -565,7 +564,6 @@ section.inner-pages-bnr.unterhaltung {
     background: url(../images/entertainment.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 
@@ -576,14 +574,12 @@ section.inner-pages-bnr.about {
     background: url(../images/about-bnr.jpg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 section.inner-pages-bnr.contact {
     background: url(../images/Kontakt.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 section.information-box {
