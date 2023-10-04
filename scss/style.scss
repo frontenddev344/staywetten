@@ -361,7 +361,7 @@ section.inner-pages-bnr {
     position: relative;
     z-index: 99;
     object-fit: cover;
-   
+
 
     &::after {
         content: '';
@@ -833,7 +833,8 @@ section.card-section.main .card-section-inner .row {
     margin-left: 30px;
     max-width: 584px;
 }
-.betting-text .read-more a{
+
+.betting-text .read-more a {
     background-color: #0c1534;
     padding: 14px 50px;
     font-family: "Roboto", sans-serif;
@@ -842,25 +843,30 @@ section.card-section.main .card-section-inner .row {
     text-transform: capitalize;
     display: inline-block;
 }
-.betting-text .read-more a:hover{
+
+.betting-text .read-more a:hover {
     background-color: #fec801;
 }
+
 .betting-text h4 {
     font-size: 26px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    
+
     color: #000;
 }
-.betting-text p{
+
+.betting-text p {
     color: #000;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 30px;
 }
-.card-section-inner.secc .row .col-lg-4.col-md-6:last-child{
+
+.card-section-inner.secc .row .col-lg-4.col-md-6:last-child {
     margin-top: 30px;
 }
+
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(4),
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(5),
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(6),
@@ -868,8 +874,46 @@ section.card-section.main .card-section-inner .row {
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(8),
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(9),
 .card-section-inner .row .col-lg-4.col-md-6:nth-child(10) {
-    
+
     margin-top: 30px;
+}
+
+.hotels-inr {
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+.hotels-inr:hover {
+    box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31);
+}
+
+.hotels-inr .row {
+    align-items: center;
+}
+
+.hotels-inr .read-more a {
+    background-color: #0c1534;
+    padding: 14px 50px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    transition: all 0.3s;
+    text-transform: capitalize;
+    display: inline-block;
+
+}
+
+.accommodation1 {
+    width: 100%;
+    max-width: 572px;
+    margin: 0 auto;
+}
+
+.accommodation img {
+    height: 166px;
+    object-fit: cover;
 }
 
 @import'./responsive.scss'

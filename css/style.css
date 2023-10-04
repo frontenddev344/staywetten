@@ -713,6 +713,43 @@ section.card-section.main .card-section-inner .row {
   margin-top: 30px;
 }
 
+.hotels-inr {
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  height: 250px;
+}
+
+.hotels-inr:hover {
+  box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.31);
+}
+
+.hotels-inr .row {
+  align-items: center;
+}
+
+.hotels-inr .read-more a {
+  background-color: #0c1534;
+  padding: 14px 50px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  transition: all 0.3s;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.accommodation1 {
+  width: 100%;
+  max-width: 572px;
+  margin: 0 auto;
+}
+
+.accommodation img {
+  height: 166px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner .bnr-inner h1 {
     font-size: 40px;
