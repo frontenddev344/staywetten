@@ -862,5 +862,14 @@ section.card-section.main .card-section-inner .row {
     font-family: "Roboto", sans-serif;
     line-height: 30px;
 }
+.card-section-inner.secc .row .col-lg-4.col-md-6:last-child{
+    margin-top: 30px;
+}
+.card-section-inner .row .col-lg-4.col-md-6:nth-child(4),
+.card-section-inner .row .col-lg-4.col-md-6:nth-child(5),
+.card-section-inner .row .col-lg-4.col-md-6:nth-child(6),
+.card-section-inner .row .col-lg-4.col-md-6:nth-child(7) {
+    margin-top: 30px;
+}
 
 @import'./responsive.scss'
