@@ -849,6 +849,10 @@ header h2 {
   color: #fff;
 }
 
+.footer-logo ul {
+  display: flex;
+}
+
 @media screen and (max-width: 1199px) {
   section.site-banner .bnr-inner h1 {
     font-size: 40px;
